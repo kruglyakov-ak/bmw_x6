@@ -1,4 +1,7 @@
+<<<<<<< HEAD
   
+=======
+>>>>>>> 7145eb299046960ccbd178d9fb5f494b01714bbb
 const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]');
 const tabsFieldElems = document.querySelectorAll('[data-tabs-field]');
 const designTitles = document.querySelectorAll('.design__title');
