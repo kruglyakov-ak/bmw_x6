@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
             featureLinkElems.forEach((featureLinkElem) => {
                 featureLinkElem.classList.remove('feature__link_active');
-            })
+            });
             featureSubElems.forEach((featureSubElem) => {
                 featureSubElem.classList.add('hidden');
-            })
+            });
 
             featureSubElems[index].classList.toggle('hidden');
             btn.classList.toggle('feature__link_active');
             }
-        })
-    })
+        });
+    });
 });

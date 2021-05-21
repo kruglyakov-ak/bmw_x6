@@ -7,5 +7,5 @@ smoothScrollElems.forEach(link => {
         document.getElementById(id).scrollIntoView({
             behavior: "smooth"
         });
-    })
-})
+    });
+});

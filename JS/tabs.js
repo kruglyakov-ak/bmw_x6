@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-  
-=======
->>>>>>> 7145eb299046960ccbd178d9fb5f494b01714bbb
 const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]');
 const tabsFieldElems = document.querySelectorAll('[data-tabs-field]');
 const designTitles = document.querySelectorAll('.design__title');
@@ -14,7 +10,7 @@ for(const tab of tabsHandlerElems) {
             } else {
                 item.classList.remove('design-list__item_active');
             }
-        })
+        });
 
         tabsFieldElems.forEach(item => {
             if (item.dataset.tabsField === tab.dataset.tabsHandler) {
@@ -27,10 +23,8 @@ for(const tab of tabsHandlerElems) {
                 if (item.dataset.tabsField === tab.dataset.tabsHandler) {
                     i.classList.toggle('hidden');
                 } 
-            })
-        })
-
+            });
+        }) ;
         
-        
-    })
+    });
 }
